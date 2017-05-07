@@ -8,11 +8,16 @@ This is a filesystem sandbox for JVM. The following functionalities are implemen
 The current implementation only covered `java.io` package, but `java.nio` package can be handled in the similar way.
 
 Build AspectJ Weave-In
+```
 >> ./build-rt.sh
+```
 
 Run test
+```
 >> ./test.sh
+```
 
 Display Changes
+```
 >> ./display_changes.sh
-
+```
