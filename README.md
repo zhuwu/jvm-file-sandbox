@@ -1,4 +1,4 @@
-# jvm-file-sandbox
+# jvm-filesystem-sandbox
 
 This is a filesystem sandbox for JVM. The following functionalities are implemented:
 * Log the events when filesystem related API is called.
