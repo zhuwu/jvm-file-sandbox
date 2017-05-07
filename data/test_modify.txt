@@ -1,0 +1,9 @@
+if(file.exists()){
+    System.out.println("Is Execute allow : " + file.canExecute());
+    System.out.println("Is Write allow : " + file.canWrite());
+    System.out.println("Is Read allow : " + file.canRead());
+}
+
+file.setExecutable(false);
+file.setReadable(false);
+file.setWritable(false);

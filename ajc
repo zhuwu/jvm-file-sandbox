@@ -1,0 +1,3 @@
+#!/bin/sh
+
+"$JAVA_HOME/bin/java" -classpath "./resources/aspectjtools-1.8.9.jar:./resources/aspectjrt-1.8.9.jar:$JAVA_HOME/lib/tools.jar:$CLASSPATH" -Xms256M -Xmx2048M org.aspectj.tools.ajc.Main "$@"

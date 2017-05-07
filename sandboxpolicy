@@ -1,0 +1,19 @@
+grant codeBase "file:/Users/zhuwu/Programming/cs5231-project/out/-" {
+  permission java.io.FilePermission "/-", "read,write,delete";
+  permission java.util.PropertyPermission "*", "read";
+};
+
+grant codeBase "file:/Users/labs-zhangys-mac/Programming/cs5231-project/out/-" {
+  permission java.io.FilePermission "/-", "read,write,delete";
+  permission java.util.PropertyPermission "*", "read";
+};
+
+grant codeBase "file:/Users/ydai/Documents/project/cs5231-project/out/-" {
+  permission java.io.FilePermission "/-", "read,write,delete";
+  permission java.util.PropertyPermission "*", "read";
+};
+
+grant codeBase "file:/Users/xiyan/Projects/cs5231-project/out/-" {
+  permission java.io.FilePermission "/-", "read,write,delete";
+  permission java.util.PropertyPermission "*", "read";
+};
